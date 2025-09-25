@@ -93,11 +93,23 @@ button:hover {
 }
 .imagem8 {
     position: fixed;
-    top: 452px;
+    top: 440px;
     right : 145px;
     width: 380px;     
     height: 220px;   
     background-image: url('imgaterro.png');
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 8px;
+}
+.imagem9 {
+    position: fixed;
+    top: 440px;
+    right : 547px;
+    width: 380px;     
+    height: 220px;   
+    background-image: url('imgaterro2.gif');
     background-position: 30%;
     background-repeat: no-repeat;
     z-index: 1;

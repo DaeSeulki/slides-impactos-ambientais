@@ -89,13 +89,25 @@ button:hover {
     margin: 15px;
     opacity: 0.6;
 }
-.imagem9 {
+.imagem10 {
     position: fixed;
-    top: 432px;
-    right : 345px;
-    width: 500px;     
-    height: 250px;   
+    top: 440px;
+    right : 547px;
+    width: 380px;     
+    height: 220px;   
     background-image: url('imgefeitoestufa.png');
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 8px;
+}
+.imagem11 {
+    position: fixed;
+    top: 440px;
+    right : 145px;
+    width: 380px;     
+    height: 220px;   
+    background-image: url('imgefeitoestufa2.png');
     background-position: 30%;
     background-repeat: no-repeat;
     z-index: 1;
