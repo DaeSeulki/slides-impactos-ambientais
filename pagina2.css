@@ -98,3 +98,15 @@ button:hover {
     margin: 15px;
     opacity: 0.6;
 }
+.imgmineracao {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;      
+    height: 100vh;
+    background-image: url('imgciclodevida.png');
+    background-size: cover;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
