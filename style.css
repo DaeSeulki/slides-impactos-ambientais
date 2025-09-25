@@ -1,0 +1,56 @@
+h1 {
+    color: #233e32;
+    font-family: Didot, serif;
+    font-size: 50px;
+    font-weight: 100;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    margin: 20px;
+}
+
+p {
+    color: #2c2821;
+    font-family: opensans, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    left: 20px;
+    bottom: 15px;
+    margin: 15px;
+}
+body {
+    background-color: #faf9f4;
+}
+.imagem1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40vw;      /* largura grande, ajustável */
+    height: 100vh;    /* altura da tela */
+    background-image: url('adobestock-772693722_285943_img.jpeg');
+    background-size: cover;
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+button {
+    background-color: #233e32;
+    color: #faf9f4ff;
+    font-family: Didot, serif;
+    font-size: 30px;
+    font-weight: 100;
+    position: absolute;
+    left: 20%;
+    bottom: 25%;
+    margin: 20px;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #2c2821;
+}
