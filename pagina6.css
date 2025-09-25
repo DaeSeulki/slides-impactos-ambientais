@@ -28,10 +28,10 @@ h1 {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     flex-grow: 1;
 
-    /* Configuração para o CSS Grid */
+    
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3 colunas de tamanhos iguais */
-    gap: 10px; /* Espaço entre os itens da grade */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
 }
 
 .etapa {
@@ -90,4 +90,16 @@ button:hover {
     bottom: 20px;
     margin: 15px;
     opacity: 0.6;
+}
+.imagem6 {
+    position: fixed;
+    top: 440px;
+    left : 550px;
+    width: 390px;     
+    height: 230px;   
+    background-image: url('imgfabrica.png');
+    background-position: 30%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 8px;
 }
