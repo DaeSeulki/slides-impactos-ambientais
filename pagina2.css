@@ -98,14 +98,14 @@ button:hover {
     margin: 15px;
     opacity: 0.6;
 }
-.imgmineracao {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40vw;      
-    height: 100vh;
+.imagem2 {
+    position: flex;
+    display: flex;
+    top: 1;
+    right: 15;
+    width: 400px;     
+    height: 230px;   
     background-image: url('imgciclodevida.png');
-    background-size: cover;
     background-position: 30%;
     background-repeat: no-repeat;
     z-index: 1;
